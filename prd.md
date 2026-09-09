@@ -28,7 +28,7 @@ Design: modern, attractive and simple. One screen: a header, one chat panel, an 
 - **FR-8:** The interface remains usable on desktop and mobile, including readable messages, an accessible input and controls, and a visible one-line disclaimer.
 
 ## The model
-Provider: Google Gemini through LangChain.js (`@langchain/google-genai`). Model name: `gemini-2.5-flash`. The system prompt lives in a dedicated frontend prompt file. Max tokens: 1024 per response.
+Provider: Google GenAI through LangChain.js (`@langchain/google-genai`). Model name: `gemma-4-26b-a4b-it`. The system prompt lives in a dedicated frontend prompt file. Max tokens: 1024 per response.
 
 ## Quality gates
 Testing: unit tests (Vitest + Testing Library) with the model faked; end-to-end tests (Playwright) with the Gemini request intercepted; both run in GitHub Actions on every push and pull request.
